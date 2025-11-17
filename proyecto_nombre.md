@@ -2,71 +2,75 @@
     
 **Estructura del documento principal:**
 
-# PRESENTACIÓN (Título/Nombre Proyecto)
+# ForSport. Tu tienda online de indumentaria deportiva!
 
 **Asignatura**: Bases de Datos I (FaCENA-UNNE)
 
 **Integrantes**:
- - Sed vel lectus nec lectus placerat laoreet et sed est.
- - Sed ac justo ac mauris porttitor convallis non sit amet felis.
- - In tincidunt augue sed molestie malesuada.
+•	Alegre Leis, Federico Gabriel
+•	Altamirano, Alex Lisandro
+•	Fernández, Lucas Agustín
+•	Sánchez, Osvaldo Abraham
 
-**Año**: 2024
+
+**Año**: 2025
 
 ## CAPÍTULO I: INTRODUCCIÓN
 
 ### Caso de estudio
 
-Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris tortor nisl, ultricies ac scelerisque nec, feugiat in nibh. 
+TEMA: Implementación de una base de datos para la gestión de un sistema de ventas online en una empresa de indumentaria deportiva.
+
 
 ### Definición o planteamiento del problema
 
-Pellentesque interdum aliquam magna sit amet rutrum. Nulla aliquam ligula nec quam iaculis dictum. In cursus aliquam cursus. Nullam a sem vel sapien iaculis finibus. Donec aliquam dictum viverra. Etiam ut orci lacus.
+Como equipo nos planteamos inquietudes a la hora de definir un tipo de proyecto apto para el desarrollo del mismo dentro de la asignatura, y como opción más aceptada encontramos un sistema de ventas que puede ser adaptado al rubro deportivo. Con esto en mente indagamos cuáles son nuestras mayores inquietudes respecto al mismo y aparecieron cuestiones como: 
+¿Cómo se realiza la gestión de este tipo de sistema de ventas?.
+¿Qué tan escalable puede llegar a ser?.
+¿Qué facilidades en cuanto a las funcionalidades se pueden aportar para que sea mas amigable con los diferentes usuarios?.
+¿Será redituable para un negocio el mantenimiento del sistema?.
+¿Cómo se llevan a cabo las operaciones para llegar a algún dato calculado útil en el sistema?.
 
-## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
+OBJETIVO DEL PROYECTO:
+En cuanto a los objetivos que proyectamos en el mismo visualizamos la creacion de un sistema web autónomo que funcionará como una tienda en línea de indumentaria deportiva. Este tiene que desarrollarse como una aplicación web responsiva, y accesible desde navegadores modernos en computadoras y dispositivos móviles. Conectará con servicios externos como la pasarela de pagos Mercado Pago (billeteras virtuales), o a traves de tarjetas bancarizadas, para procesar transacciones y utilizará una base de datos relacional para almacenar información de productos, usuarios y pedidos. El sistema incluirá dos interfaces principales: una para usuarios finales (clientes) y otra para administradores.
+
+Objetivos Generales: Crear un sistema para la gestión venta de productos online de una empresa de indumentaria deportiva que sea amigable para los usuarios y que opere de manera eficiente..
+
+Objetivos Específicos:
+Definir una interfaz amigable para los usuarios como filtro por talle, marca, y precio adaptable a dispositivos móviles.
+Definir perfiles de Administrador y Usuario para realizar las diferentes operaciones para cada uno de ellos promoviendo la seguridad del sistema. 
+Implementar diferentes métodos de pago para la compra de los productos.
+Diseñar un panel administrativo centralizado que permita gestionar productos, talles, precios, stock, pedidos y usuarios con validaciones dinámicas y retroalimentación visual.
+Diseñar una arquitectura modular que permite agregar nuevas funcionalidades (como cupones, reseñas, o nuevos métodos de pago) sin afectar el núcleo del sistema.
+Implementar reportes en tiempo real de ventas, productos más vendidos, márgenes y comportamiento de usuarios.
+
+
+## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL <br>
+Como problemática del sector de ventas de productos de una tienda, es que se enfrentan a los cambios que producen las nuevas tecnologías que es la compra de productos en línea que es hoy día más utilizado por su facilidad de compra sin moverse de casa. Por eso es indispensable crear un sistema que permita dicha compra de los productos que ofrece nuestra tienda de indumentaria deportiva, de esta manera poder llegar a más clientes.
+
+Para ello se ha realizado un análisis del problema y se ha encontrado la necesidad de crear una página web para la venta de nuestros productos.
+Para organizar los datos hemos utilizado SQL Server que es un motor de bases de datos relacional que nos permite almacenar los datos de nuestra tienda de manera organizada y segura.
+Para ello se han diseñado tablas que definen los elementos de nuestro sistemas, entre los principales son producto, usuario, proveedor, categoría de los productos entre otros.
+El uso de está herramienta nos permite organizar los datos de manera eficiente y segura cuidando la integridad de los datos.
+
+Como resultado obtendremos un sistema capaz de guardar los productos, proveedores y usuarios de manera segura y sin alterar los datos de estas entidades ni que se mezclen entre ellos. Así los clientes podrán comprar los productos de manera fácil y segura. Y el usuario del sistema promociona sus productos, realiza compras a los proveedores y vende los productos con distintos métodos de pago.
+
 
 **TEMA 1 " ---- "** 
-Ut sed imperdiet risus. Maecenas vestibulum arcu vitae orci pretium pharetra. Suspendisse potenti. Fusce massa libero, fermentum eget elit in, tincidunt fermentum nunc. Cras imperdiet nisl elit, elementum gravida enim accumsan vel. Sed in sapien quis ante consectetur commodo id non nulla. Aenean lacinia, dolor convallis semper mattis, ante orci elementum nunc, eget feugiat risus neque in urna. Ut ut quam nec risus mollis convallis ornare ac odio. Phasellus efficitur posuere nibh, eget tempor augue pellentesque ac. Ut enim sem, imperdiet non est ut, blandit posuere dui. Curabitur at purus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
 
 **TEMA 2 " ----- "** 
-Ut sed imperdiet risus. Maecenas vestibulum arcu vitae orci pretium pharetra. Suspendisse potenti. Fusce massa libero, fermentum eget elit in, tincidunt fermentum nunc. Cras imperdiet nisl elit, elementum gravida enim accumsan vel. Sed in sapien quis ante consectetur commodo id non nulla. Aenean lacinia, dolor convallis semper mattis, ante orci elementum nunc, eget feugiat risus neque in urna. Ut ut quam nec risus mollis convallis ornare ac odio. Phasellus efficitur posuere nibh, eget tempor augue pellentesque ac. Ut enim sem, imperdiet non est ut, blandit posuere dui. Curabitur at purus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
-...
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
-Donec lobortis tincidunt erat, non egestas mi volutpat in. Cras ante purus, luctus sed fringilla non, ullamcorper at eros.
-
  **a) Cómo se realizó el Trabajo Práctico**
-Vestibulum rutrum feugiat molestie. Nunc id varius augue. Ut augue mauris, venenatis et lacus ut, mattis blandit urna. Fusce lobortis, quam non vehicula scelerisque, nisi enim ultrices diam, ac tristique libero ex nec orci.
 
  **b) Herramientas (Instrumentos y procedimientos)**
-Donec lobortis tincidunt erat, non egestas mi volutpat in. Cras ante purus, luctus sed fringilla non, ullamcorper at eros. Integer interdum id orci id rutrum. Curabitur facilisis lorem sed metus interdum accumsan. 
-
 
 ## CAPÍTULO IV: DESARROLLO DEL TEMA / PRESENTACIÓN DE RESULTADOS 
 
-Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris tortor nisl, ultricies ac scelerisque nec, feugiat in nibh. Pellentesque interdum aliquam magna sit amet rutrum. 
-
-
-
-### Diagrama conceptual (opcional)
-Ejemplo usando Live Editor https://mermaid.js.org/ (ejemplo opcional)
-```mermaid
-erDiagram
-CUSTOMER  }|..|{  DELIVERY-ADDRESS  : has
-CUSTOMER  ||--o{  ORDER  : places
-CUSTOMER  ||--o{  INVOICE  : "liable for"
-DELIVERY-ADDRESS  ||--o{  ORDER  : receives
-INVOICE  ||--|{  ORDER  : covers
-ORDER  ||--|{  ORDER-ITEM  : includes
-PRODUCT-CATEGORY  ||--|{  PRODUCT  : contains
-PRODUCT  ||--o{  ORDER-ITEM  : "ordered in"
-```
-### Diagrama relacional
-![diagrama_relacional](https://github.com/dovillegas/basesdatos_proyecto_estudio/blob/main/doc/image_relational.png)
-
+### Diagrama relacional (https://github.com/AbrahamCtes/basesdatos_proyecto_estudio/blob/01614020c5d0198407924c463556cea09a6cf8f9/doc/diagrama_relacional_proyecto.png)
 ### Diccionario de datos
 
 Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
@@ -79,6 +83,18 @@ Fusce auctor finibus lectus, in aliquam orci fermentum id. Fusce sagittis lacus 
 > Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_1](script/tema01_nombre_tema)
 
 ### Desarrollo TEMA 2 "----"
+
+Proin aliquet mauris id ex venenatis, eget fermentum lectus malesuada. Maecenas a purus arcu. Etiam pellentesque tempor dictum. 
+
+> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_2](script/tema02_nombre_tema)
+
+### Desarrollo TEMA 3 "----"
+
+Proin aliquet mauris id ex venenatis, eget fermentum lectus malesuada. Maecenas a purus arcu. Etiam pellentesque tempor dictum. 
+
+> Acceder a la siguiente carpeta para la descripción completa del tema [scripts-> tema_2](script/tema02_nombre_tema)
+
+### Desarrollo TEMA 4 "----"
 
 Proin aliquet mauris id ex venenatis, eget fermentum lectus malesuada. Maecenas a purus arcu. Etiam pellentesque tempor dictum. 
 
